@@ -12,3 +12,11 @@ How to run BeautifulSoup
 2. Using pip install BeautifulSoup, it is better to use addtional library, such as regular expression
 3. run in visual studio code or another UI such as spyder
 4. Scrapy will display the data and create a CSV file in the folder when you put the code.
+
+How to run Selenium
+1. Download the project and unzip
+2. Download Selenium, Chrome webdriver and other neccessary packages. You can see tutorial here : https://cloudbytes.dev/snippets/run-selenium-and-chrome-on-wsl2
+3. Change the web driver path to where it locates on your computer.
+4. Run the code using command
+5. Chrome web driver will work automatically. Don't do anything with the driver, it will take approximately 7-8 minutes to scrap 100 pages. If you want to test on few pages set boolean operator in the begining of the code to False. 
+6. This code will save the output in CSV where you put your code.
